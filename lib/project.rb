@@ -12,7 +12,7 @@ def array
 end 
 
 def add_backer(backer)
-  @backer
+  @backer_array << backer
 
 end
 
