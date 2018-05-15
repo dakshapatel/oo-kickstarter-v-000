@@ -3,6 +3,10 @@ class Backer
 attr_accessor :name, :backed_projects
 
 
+def array
+  @backed_projects
+end
+
 
 def initialize(name)
   @name = name
