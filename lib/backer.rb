@@ -7,10 +7,6 @@ def initialize(name)
   @backed_projects = []
 end
 
-def array
-  @backed_projects
-end
-
 def back_project(project)
   @backed_projects << project
   #ProjectBacker.new(project, self)
