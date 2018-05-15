@@ -8,7 +8,8 @@ def initialize(name)
 end
 
 def back_project(project)
-  ProjectBacker.new(project, self)
+  @back_project << project
+  #ProjectBacker.new(project, self)
 end
 
 
