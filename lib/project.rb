@@ -4,15 +4,15 @@ attr_accessor :title, :backer
 
 def initialize(title)
   @title = title
-  @backer_array = []
+  @backers = []
 end
 
 def array
-  @backed_array
-end 
+  @backers
+end
 
 def add_backer(backer)
-  @backer_array << backer
+  @backers << backer
 
 end
 
