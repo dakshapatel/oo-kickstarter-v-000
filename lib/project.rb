@@ -2,11 +2,10 @@ class Project
 
 attr_accessor :title, :backers
 
-def initilize
+def initialize
   @title = title
+end
 
-end
-def add_backer(backer)
-   ProjectBacker.new(self, backer)
-end
+
+
 end
